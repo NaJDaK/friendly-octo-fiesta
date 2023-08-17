@@ -1,97 +1,131 @@
-body:not(p.footd){
-    font-family: Verdana,Sans-Serif;
-    font-size: 24px;
-    width: 1400px;
-    background-color:Moccasin;
-}
-.cont {
-    margin: 5px 5px 0px 5px;
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    box-sizing: border-box;
+    min-width: 480px;
 }
 
-.name {
-    text-align: center;
-    margin-bottom: 30px;
+header {
+    background: linear-gradient(to bottom, chocolate 80%, #71eef7);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-/*img {
-    width: 50%;
-    height: 40%;
-}*/
-.myfoto {
-    margin-right: 20px;
-    margin-right: 20px;
+
+.myName {
+    font-weight: 800;
+    font-size: 150%;
+}
+
+header img {
+    width: 500px;
+    padding-left: 150px;
+}
+
+header p {
+    padding-left: 100px;
+    font-weight: 500;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+section {
+    background: linear-gradient(to top, #29d3df 50%, #71eef7);
+    padding: 150px;
+}
+
+section img {
+    width: 300px;
     float: right;
-    width: 130px;
-    height: 170px;
-}
-.myfoto:hover {
-    width: 250px;
-    height: 350px;
+    line-height: 150%;
 }
 
-ul {
-    list-style-type: none;
-    line-height: 30px;
+section em {
+    text-decoration: underline;
 }
-.secdiv {
-    display: block;
-    
+
+main {
+    background: linear-gradient(to top, #eeba98 80%, #29d3df);
+    padding: 150px 50px 100px 50px;
 }
-.serega span {
-    position: absolute;
-    display: none;
-    font-style: italic;
-    color:#000;
+
+.contact {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.serega:hover span {
-    display: block;
-    
+
+main h3 {
+    font-weight: 600;
+    padding-bottom: 5px;
 }
-img:hover {
-    width: 250px;
-    height: 350px;
-}
-.sertific {
-    display:inline;
-}
-a {
-    text-decoration: none;
-    font-style: italic;
-    color: inherit;
-    background-image: none;
+
+main a {
+    color: rgb(255, 71, 71);
     transition: all 0.5s ease-in-out;
-    cursor: pointer;
-    /* color:#000; */
-}
-a:visited {
-    color: rgb(255, 0, 13);
 }
 
-a:hover {
-    color: blueviolet;
-    background-color: aqua;
+main a:hover {
+    color: sienna;
     font-size: 120%;
 }
-footer {
-    display: inline-block;
-    margin-top: 3px;
-    padding: 3px 6px;
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-}
-h1,p,img,a,h3{
-    margin-right: 10px;
-    margin-left: 10px;
+
+.mylist li {
+    list-style-type: circle;
+    margin-left: 30px;
+    padding-bottom: 10px;
 }
 
-h1 {
-    font-weight: 700;
+.driver {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.labObl {
     margin-bottom: 20px;
 }
 
-article {
-    margin: 15px;
+.labJbl h3 {
+    padding-top: 10px;
+    padding-bottom: 2%;
+}
+
+.skill {
+    padding-bottom: 10px;
+}
+
+.perQualities {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secdiv {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.secdiv h2 {
     font-weight: 700;
-    line-height: 2;
+}
+
+.ps {
+    font-style: 120%;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: tomato;
+text-decoration-thickness: 4px;
+}
+
+footer {
+    background: linear-gradient(to top, chocolate 80%, #eeba98);
+}
+
+.footd {
+    padding: 50px 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px white;
 }
